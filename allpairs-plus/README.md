@@ -19,18 +19,48 @@ Check below for more details.
 
 ## Tool Instructions
 
-### Pairwise Tool Input
+### Tool Input
 
-* Input: input/input_seed.txt
-* 
-  *Basic usage
-  '<parameterA>: <valueA1>, <valueA2>… ,<valueAY>
+input/input_seed.txt
+
+* Basic usage
+```
+  <parameterA>: <valueA1>, <valueA2>… ,<valueAY>
   ……
- <parameterX>: <valueX1>, <valueX2>… ,<valueXY>'
+ <parameterX>: <valueX1>, <valueX2>… ,<valueXY>
+```
 
-  *Advanced usage – parameter self-combination
- '<parameterA-sub1>: <valueA11>, <valueA12>… ,<valueA1Y>
+* Advanced usage – parameter self-combination
+```
+ <parameterA-sub1>: <valueA11>, <valueA12>… ,<valueA1Y>
   ……
  <parameterA-subN>: <valueAN1>,<valueAN2>… ,<valueANY>
   ……
- <parameterX>: <valueX1>, <valueX2>… ,<valueXY>'
+ <parameterX>: <valueX1>, <valueX2>… ,<valueXY>
+```
+
+ * Condition
+```
+ Parameter name must unique, and it’s case sensitive     
+ Delimiter is ‘,’ in seed file
+ If parameter value have conflict with delimiter(‘,’), use “comma” instead
+```
+ 
+### Pairwise Tool Output
+
+Output: output/output.txt
+
+```
+ ParameterA		ParameterB		...	ParameterX
+ <valueA1>		<valueB1>		...	<valueX1>
+ ...			...			...	...
+ <valueAi>		<valueBj>		...	<valueXk>
+```
+```Delimiter is TAB```
+
+### Tool Execution
+
+Run Pairwise tool
+
+    $ python allpairs.py
+    
