@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 import sys, os, itertools, shutil, getopt, re 
 import conf
