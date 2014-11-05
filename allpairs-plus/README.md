@@ -9,7 +9,7 @@ Pairwise tool is an effective data-driven test case generation technique, which 
 
 ## Pre-requirements
 
-Install [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/)
+Install [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/) follow its readme
 
 ## Parameter Self-combination Method
 
@@ -31,7 +31,7 @@ input/input_seed.txt
 
 * Basic usage
 ```
-  <parameterA>: <valueA1>, <valueA2>… ,<valueAY>
+<parameterA>: <valueA1>, <valueA2>… ,<valueAY>
   ……
  <parameterX>: <valueX1>, <valueX2>… ,<valueXY>
 ```
