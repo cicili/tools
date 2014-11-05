@@ -7,10 +7,6 @@ allpairs-plus tool here is based the pairwise tool of "all pairs", to use minima
 
 Pairwise tool is an effective data-driven test case generation technique, which is based on the observation that most faults are caused by interactions of two factors.By using this method, you can get remarkable test cases coverage.
 
-## Pre-requirements
-
-Install [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/) follow its readme
-
 ## Parameter Self-combination Method
 
 Pairwise tool - all pairs disadvantages:
@@ -79,3 +75,4 @@ Run Pairwise tool
   * selfcomb.txt - self-combination result, this is a intermediate result for reference
   * output.txt - output data
 * metacomm - this folder is for allpairs
+  * Which get from allpairs [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/) after install it
