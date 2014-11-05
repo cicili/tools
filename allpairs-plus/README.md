@@ -73,9 +73,9 @@ Run Pairwise tool
 
 # Tools Packages Usage 
 
-> doc - document or flow chart for allpairs-plus tool
-> input - input data
-> output - output data
-  >> selfcomb.txt - self-combination result, this is a intermediate result for reference
-  >> output.txt - output data
-> metacomm - this folder is for allpairs
+* doc - document or flow chart for allpairs-plus tool
+* input - input data
+* output - output data
+  * selfcomb.txt - self-combination result, this is a intermediate result for reference
+  * output.txt - output data
+* metacomm - this folder is for allpairs
