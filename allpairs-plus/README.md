@@ -75,4 +75,4 @@ Run Pairwise tool
   * selfcomb.txt - self-combination result, this is a intermediate result for reference
   * output.txt - output data
 * metacomm - this folder is for allpairs
-  * Which get from [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/) after install it
+  * Which get from [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/) after it has been installed
