@@ -1,3 +1,5 @@
+allpairs-plus
+===============
 
 ## Introduction
 
@@ -5,7 +7,11 @@ allpairs-plus tool here is based the pairwise tool of "all pairs", to use minima
 
 Pairwise tool is an effective data-driven test case generation technique, which is based on the observation that most faults are caused by interactions of two factors.By using this method, you can get remarkable test cases coverage.
 
-## Parameter self-combination method
+## Pre-requirements
+
+Install [allpairs](http://sourceforge.net/projects/allpairs/files/allpairs/)
+
+## Parameter Self-combination Method
 
 Pairwise tool - all pairs disadvantages:
 
@@ -46,7 +52,7 @@ input/input_seed.txt
  If parameter value have conflict with delimiter(‘,’), use “comma” instead
 ```
  
-### Pairwise Tool Output
+### Tool Output
 
 Output: output/output.txt
 
@@ -62,5 +68,9 @@ Output: output/output.txt
 
 Run Pairwise tool
 
-    $ python allpairs.py
+    $ python allpairs-plus.py
     
+
+# Tools Packages Usage 
+
+metacomm/ folder is for allpairs.
