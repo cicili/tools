@@ -84,6 +84,14 @@ Run Pairwise tool
 
     $ python allpairs-plus.py
     
+Run Pairwise tool with baseline
+
+    $ python allpairs-plus.py -b $baseline_file
+
+Pairwise tool help
+
+    $ python allpairs-plus.py -h
+
 
 # Tools Packages Usage 
 
