@@ -5,11 +5,11 @@ ATIP - a new "behave" binding library
 
 ATIP(Application Test in Python), a “behave” binding library as the bridge between application and BDD to “behave”, and use WebDriver and platform interfaces to implement detailed BDD steps for application. 
 
-## Configuration - environment.py
+## Configuration
 
-Environmental controls. In ATIP usage, you can write the environment initial processes on this file. ATIP provides a template of "environment.py" for tests developers. This template supports running tests independently by "behave" tool.
+Environmental controls. In ATIP usage, you can write the environment initial processes in config file - environment.py. ATIP provides a template of "environment.py" for tests developers. This template supports running tests independently by "behave" tool.
 
-In Crosswalk testing, the template need to know the some test vars, e.g. which device be tested? which test platform? Some WebDriver vars. the vars can be got by following ways:
+In Crosswalk testing, the template need to know the some test vars, e.g. which device be tested? which test platform? Some WebDriver vars. the vars can be got by following ways:  
 
 * By environment vars:  
   TEST_PLATFORM: android, tizen, chrome_ubuntu, others(if have)   
@@ -22,7 +22,7 @@ ATIP source provides a script "tools/set_env.sh" which can help you to setup tho
 
 A JSON config file which named "webdriver.json for environment vars sharing, a template provided for reference: "atip/tools/webdriver.*.json"  
 
-Configuration source layout as below:
+* Configuration source layout
 ```
 tools/
 ├── set_env.sh
@@ -65,8 +65,16 @@ def i_visit_url(context, url):
 ```
 
 ## ATIP Library  
-* Category
-  Common
+
+* Functions Category  
+  "web": place web based(Webdriver API) functions  
+  "native": place native based functions (TBD)  
+  "common": place common operations cross different platforms, e.g. call python image lib to compare image files  
+  "android": place Android platform specific functions  
+  "tizen": place Tizen platform specific functions  
+
+ 
+
 * Features Done 
   Environment initialization from config file  
   Environment initialization from test tools/system environment vars  
