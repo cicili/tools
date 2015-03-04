@@ -36,9 +36,26 @@ tests/
   └── test.feature
 ```
 
-* test.feature
+* test.feature  
+  
+A simple feature example as below
+```
+Feature: api tests
+    Scenario: api test 001
+        When launch "haha"
+         And I go to "http://www.google.com"
+         And I wait for 1 seconds
+```
 
-* steps.py
+* steps.py  
+  
+A simple step example as below
+```
+@step(u'I go to "{url}"')
+def i_visit_url(context, url):
+    url = get_page_url(context, url)
+    assert context.app.switch_url(url, True)
+```
 
 ## Features Status
 
