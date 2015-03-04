@@ -73,7 +73,14 @@ def i_visit_url(context, url):
   "android": place Android platform specific functions  
   "tizen": place Tizen platform specific functions  
 
- 
+* "web" steps  
+  
+* "common" steps  
+  Launch app  
+  Swithch to app  
+  Wait some seconds  
+  
+
 
 * Features Done 
   Environment initialization from config file  
