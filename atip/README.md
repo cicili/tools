@@ -1,4 +1,4 @@
-ATIP - a new "behave" binding library
+ATIP - a new BDD binding library 
 ===============
 
 ## Introduction
