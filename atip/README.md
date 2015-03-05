@@ -222,7 +222,7 @@ def i_visit_url(context, url):
   "android": Android platform specific functions  
   "tizen": Tizen platform specific functions  
 
-* "web" steps  
+* "web" steps - done
 ```
 @step(u'I go to "{url}"')
 @step(u'I reload')
@@ -249,7 +249,7 @@ def i_visit_url(context, url):
 @step(u'I should see an alert with text "{text}"')
 ```
 
-* "common" steps  
+* "common" steps - done
 ```
 @step(u'I wait for {timeout:d} seconds')
 @step(u'launch "{app_name}"')
@@ -258,16 +258,6 @@ def i_visit_url(context, url):
 @step(u'call "{js}" scripts') - TBD
 @step(u'call PIL to handle "{image_file}"') - TBD
 ```
-
-* Features Done 
-  Environment initialization from config file  
-  Environment initialization from test tools/system environment vars  
-  Support Crosswalk on Tizen and Android  
-  Crosswalk application launching  
-  Basic WebDriver based steps  
-
-* Features In Plan
-
 
 ## Run Tests 
 
