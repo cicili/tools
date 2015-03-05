@@ -114,67 +114,105 @@ def i_visit_url(context, url):
 		<td>Find element(s) by partial link text</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
+		<td>Window Management</td>
+		<td>get current window handle</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>get window position</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>get window size</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>maximize window</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>set window position</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>set window size</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>close current window</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>switch to alert</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>switch to window</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>switch to frame</td>
+	</tr>
+	<tr>
+		<td>Page Management</td>
+		<td>get url of current page</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>get source of current page</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>get page title</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>refresh current page</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>forward the page</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td></td>
+		<td>backward the page</td>
+	</tr>	
+	<tr>
+		<td>Cookie</td>
+		<td>add cookie</td>
 	</tr>
-	
-	
+	<tr>
+		<td></td>
+		<td>get cookie(s)</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>delete cookie</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>delete all cookies</td>
+	</tr>
+	<tr>
+		<td>Execution External</td>
+		<td>execute command</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>execute script synchronously</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>execute script asynchronously</td>
+	</tr>
+	<tr>
+		<td>Image Processing</td>
+		<td>get screenshot as base64</td>
+	</tr>	
+	<tr>
+		<td></td>
+		<td>get screenshot as file/png</td>
+	</tr>	
 </table>
 
 * Functions Category  
