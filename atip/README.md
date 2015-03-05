@@ -66,6 +66,117 @@ def i_visit_url(context, url):
 
 ## ATIP Library  
 
+* Library Overview
+
+<table>
+  <tr>
+		<td>Category</td>
+		<td>Steps</td>
+	</tr>
+	<tr>
+		<td>Web Element Management</td>
+		<td>Create element</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Click element</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by id</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by name</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by tag name</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by xpath</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by class name</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by css selector</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by link text</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Find element(s) by partial link text</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	
+	
+</table>
+
 * Functions Category  
   "web": web based(Webdriver API) functions  
   "native": native based functions (TBD)  
